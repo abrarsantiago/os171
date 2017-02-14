@@ -1,0 +1,22 @@
+total 76
+drwxr-xr-x 18 muhammad.abrar StafCS 4096 Feb 15 00:35 .
+drwx--x--x  3 muhammad.abrar StafCS 4096 Feb 14 22:04 ..
+drwxr-xr-x  8 muhammad.abrar StafCS 4096 Feb 15 00:05 .git
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:36 key
+-rw-r--r--  1 muhammad.abrar StafCS    0 Feb 15 00:35 lab01.txt
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:34 log
+-rw-r--r--  1 muhammad.abrar StafCS    7 Feb 14 21:58 README.md
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 15 00:02 sandbox
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 15 00:33 week00
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:27 week01
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:31 week02
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:32 week03
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week04
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week05
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week06
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week07
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week08
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week09
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:34 week10
+drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:36 xtra
+/home/fasilkom/mahasiswa/m/muhammad.abrar/os171/week01
