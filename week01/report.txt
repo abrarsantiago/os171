@@ -1,0 +1,17 @@
+Pada week01 di tugaskan untuk:
+A. Belajar membuat folder di terminal linux (melalui putty)
+cara nya (contoh membuat folder week01):
+  - mkdir <nama folder> ---> mkdir week01
+B. Belajar untuk push ke github :
+   1.Pertama lakukan git add . yang berguna untuk semua file yang ada
+     di directory kerja saya di tandai untuk di commit ke github.
+   2.Untuk mengecek semua file yang telah di commit maka menggunakan perintah
+     "git status"
+   3.git commit -m "<pesan anda>", berguna untuk mempersiapkan file untuk
+     di-push. Bila saya memamakai perintah git status maka semua file yang
+     sebelumnya saya add hilang.
+   4.git pull, digunakan untuk mengecek apakah ada update terbaru dari folder
+     kerja saya. Bila ada maka saya akan mengunduh folder tersebut dan menimpa folder 
+     offline saya.
+   5. git push, digunakan untuk memindahkan file yang sudah di commit ke directory github saya
+di https://github.com/abrarsantiago/os171. 
