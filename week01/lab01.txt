@@ -20,3 +20,4 @@ drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:33 week09
 drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:34 week10
 drwxr-xr-x  2 muhammad.abrar StafCS 4096 Feb 14 23:36 xtra
 /home/fasilkom/mahasiswa/m/muhammad.abrar/os171/week01
+Today is 15 Feb 2017 at 01:11:36
