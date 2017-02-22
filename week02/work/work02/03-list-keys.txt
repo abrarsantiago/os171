@@ -1,0 +1,7 @@
+/home/fasilkom/mahasiswa/m/muhammad.abrar/.gnupg/pubring.gpg
+------------------------------------------------------------
+
+pub   4096R/71370586 2017-02-20 [expires: 2017-08-19]
+uid                  Muhammad Abrar (Harus lulus OS Semester ini Aamiin) <muhammad.abrar@ui.ac.id>
+sub   4096R/665D9F7F 2017-02-20 [expires: 2017-08-19]
+
