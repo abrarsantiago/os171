@@ -1,0 +1,2 @@
+Week01 : Belajar create empty file, Remove "Dummy" file, Push to git hub,Intro
+         Scripting, 
