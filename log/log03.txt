@@ -1,0 +1,25 @@
+w03-170226-17-LR-About: Memori, Scripting
+w03-170226-17-LR-About: Memori, Scripting
+w03-170226-18-LR-About: Memori, Scripting
+w03-170226-18-LR-About: Memori, Scripting
+w03-170226-19-LR-About: Memori, Scripting
+w03-170226-19-LR-About: Memori, Scripting
+w03-170226-20-LR-About: Memori, Scripting
+w03-170226-20-LR-About: Memori, Scripting
+w03-170227-13-PS-About: Lab week03,about boot and start up script
+w03-170227-13-PS-About: Lab week03,about boot and start up script 
+w03-170228-13-LR-About: BIOS,BOOT, and UPStart, From: Lecturer
+w03-170228-13-LR-About: BIOS,BOOT, and UPStart, From: Lecturer
+w03-170228-14-LR-About: BIOS,BOOT, and UPStart, From: Lecturer
+w03-170228-22-PS-About: Continue Lab week03,about boot and start up script
+w03-170228-22-PS-About: Continue Lab week03,about boot and start up script
+w03-170228-23-PS-About: Continue Lab week03,about boot and start up script
+w03-170228-23-PS-About: Continue Lab week03,about boot and start up script
+w03-170301-00-PS-About: Continue Lab week03,about boot and start up script
+w03-170301-00-PS-About: Continue Lab week03,about boot and start up script
+w03-170301-01-PS-About: Continue Lab week03,about boot and start up script
+w03-170301-01-PS-About: Continue Lab week03,about boot and start up script
+
+
+
+ 
