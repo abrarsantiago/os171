@@ -1,0 +1,41 @@
+Hello, this is exlanation about linux booting!
+
+Source : https://www.ibm.com/developerworks/library/l-linuxboot/
+Step - step dalam proses booting linux :
+1. System start up
+   Pada System Start up, booting linux dimulai dari BIOS pada address 0xFFF0.
+   Lalu tahapan awal BIOS adalah power-on self test(POST), yang mana tugas POST 
+   adalah mengecek hardware, lalu kemudian melakukan inisialisasi dan
+   mencatat semua local device. Linux juga bisa boot melalui USB Flash disk,
+   umunya jika di boot melalui hardisk atau USB Flash disk, biasanya terdapat
+   master boot record yang mana akan di transfer ke RAM, dan hasilnya BIOS akan
+   mengontrolnya 
+2. Stage 1 Bootloader
+   Tugas utama dari primay boot loader adalah untuk load secondary boot loader, 
+   kemudian mencari table partisi yang mana partisi yang aktif, ketika menemukan
+   partisi aktif maka partisi tidak aktif akan di scan untuk memastika partisi
+   tersebut tidak aktif, Ketika sudah di verifikasi maka boot record yang ada
+   di partisi di load ke memori dan eksekusi.
+3. Stage 2 Bootloader
+   Pada awalnya first dan second stage boot loader di gabung yang bernama (LILO).
+   Lalu di update menjadi Grand Unified Bootloader (GRUB) dikarenakan LILO 
+   mempunyai kelemahan yaitu louder yang tidak dapat berfungso jika tidak ada
+   OS.
+   Pada stage 2 ini boot loader di memori sistem di consulted dan image initrd
+   dan image kernel di load ke memori, Ketika image sudah siap boot loader memanggil image
+   kernel. 
+4. Kernel
+   Selama boot kernel, initrd di load ke memori melalui stage 2 boot loader,
+   yang di copy ke RAM lalu di Mount. Initrd menyediakan temporari root file 
+   sistem di RAM dan mengizinkan kernel boot secara penuh tanpa harus di mount
+   ke phisical disk. Setelah root kernel di boot dan initrd telah berhasil 
+   menjalankan tugasnya men-load kernel, dimana sekarang  
+   initrd di unmount dan real root sistem lalu akhrinya di pasang.  
+   
+5. Init
+   Setelah kernel di boot dan di inisialisasi, kernel menjalankan aplikasi pertama. 
+   Dimana pada sistem linux aplikasi yang pertama adalah /sbin/init. Tapi init 
+   ini jarang digunakan karena biasanya kita bisa saja memulai shell script
+   yang mana shell script dapat memulai aplikasi penting nantinya.
+
+
