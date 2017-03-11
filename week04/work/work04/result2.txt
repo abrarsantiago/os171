@@ -1,0 +1,6 @@
+=======================================
+varchar0: value =  a, address = 0x7ffd49153c9f
+varchar1: value =  b, address = 0x7ffd49153c9e
+varchar2: value =  c, address = 0x7ffd49153c9d
+varchar3: value =  d, address = 0x7ffd49153c9c
+=======================================

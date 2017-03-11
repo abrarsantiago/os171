@@ -1,0 +1,61 @@
+a. (Perbedaan kode terletak pada pendeklarasian varibale).Perbedaan antara local variable  dan global variable adalah :
+   - code local variable : yaitu variable yang dinyatakan  di dalam fungsi, yang mana jika kita mendeklasrasikan variable dalam fungsi maka kita hanya bisa menggunakan variable tersebut dalam fungsi itu
+   - code global variable: yaitu variable yang dapat diakses dalam beberapa lingkup. Varibale global hanya bisa diakses setelah varibale tesebut di deklarasikan.
+   Lalu perbedaan output: terletak di address nya
+
+b. Dikarenakan perbedaan tempat penyimpanan, jika local variable disimpan di stack segement maka global variable di simpan di data segement
+   contoh output : local variable : 0x7ffd49153c9f ; global variable: 0x600a98
+
+c. Global variable adalah merupakan variabel yang dapat digunakan atau di panggil oleh semua fungsi. Variabel global juga dapat digunakan apabila terdapat variable yang digunakan pada beberapa fungsi/prosedur. Dan dengan adanya global variable biasanya bertujuan agar kita tida pelu lagi berkali - kali dalam menuliskan variabel yang sama pada beberapa fungsi
+   , sedangkan local variabel merupakan variabel yang hanya dapat digunakan atau di panggil dalam satu prosedur saja. Local varibale hanyadikenal oleh fungsi tempat variable tersebut dideklarasikan dan tidak ada inisialisasi secara otomatis (saat variabel di buat nilainya tidak menentu)
+source : https://www.codecademy.com/en/forum_questions/514900b642e721e65d0003f1 
+
+
+===============================================================================================================================================================
+5a)=FLAGS=
+1.O_RDONLY : Digunakan untuk membuka file yang mana hanya untuk dibaca
+2.O_WRONLY : Digunakan untuk membuka file yang mana hanya untuk menulis saja
+3.O_RDWR : Digunakan untuk membuka file yang bisa membaca file yang telah di tulis 
+4.O_APPEND : menambah informasi baru pada akhir file
+5.O_TRUNC : awalan menghapus semua data dari file 
+6.O_CREAT : Digunakan untuk membuat file baru
+
+5b)=MODE=
+1. S_IRWXU : mode User telah membaca lalu menulis dan mengeksekusi izin 
+2. S_IRUSR : mode user telah membaca permission 
+3. S_IWUSR : mode user telah menulis permission
+4. S_IXUSR : mode user telah menjalankan permission
+
+5. S_IRWXG : mode grup telah membaca,menulis dan menjalankan permission
+6. S_IRGRP : mode grup telah membaca permission
+7. S_IWGRP : mode grup telah menulis permission
+8. S_IXGRP : mode grup telah menjalankan permission
+
+9. S_IRWXO : mode pihak lain telah membaca,menulis dan menjalankan permission
+10.S_IROTH : mode pihak lain telah membaca permission
+11.S_IWOTH : mode pihak lain telah menulis permission
+12.S_IXOTH : mode pihak lain elah menjalankan permission
+
+
+5c) maksud dari program open-file.c adalah sebuah program yang membuat file lalu menutup nya kembali. yang mana file1,file2,file3 menunjuk ke FILE1,FILE2,FILE3 dan FILE1,FILE2,FILE3 merujuk ke demo-file1.txt,demo-file2.txt,demo-file3.txt
+
+Kemudian mengenai proses I/O:
+Instruksi I/O digunakan sebagai pengontrol penggunaan perangkat dan penjadwalan Masing-masing perangkat mempunyai antrian request I/O.
+Beberapa OS menjadwalkan secara adil setiap permintaan akses I/O. Lalu Buffering – menyimpan data pada memori sementara saat berlangsungnya transfer data antar perangkat I/O, untuk menangani perbedaan kecepatan antar perangkat.
+
+Lalu pada I/O terdapat :
+
+standar error:
+OS dapat memulihkan error yang bersifat transient, seperti kesalahan pembacaan/penulisan disk, device unavailable, dan lainnya
+- Jika permintaan I/O gagal, maka sistemmenginformasikan nomor error
+- System error log memberikan laporan permasalahan aktifitas I/O
+
+Standar input:
+sering disingkat stdin, adalah data input untuk program dalam ketidakadaan  argumen di baris perintah. Standar input dapat mengarah langsung dari dan menuju text file pada keyboard menggunakan input redirection operator. yang merupakan braket yang menunjuk ke kiri. sebagai contoh kita menggunakan file yang bernama file3, tipe : sort < file3
+
+
+ 
+
+
+ 
+    

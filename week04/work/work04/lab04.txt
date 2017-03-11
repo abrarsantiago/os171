@@ -1,0 +1,66 @@
+a. (Perbedaan kode terletak pada pendeklarasian varibale).Perbedaan antara local variable  dan global variable adalah :
+   - code local variable : yaitu variable yang dinyatakan  di dalam fungsi, yang mana jika kita mendeklasrasikan variable dalam fungsi maka kita hanya bisa menggunakan variable tersebut dalam fungsi itu
+   - code global variable: yaitu variable yang dapat diakses dalam beberapa lingkup. Varibale global hanya bisa diakses setelah varibale tesebut di deklarasikan.
+   Lalu perbedaan output: terletak di address nya
+
+b. Dikarenakan perbedaan tempat penyimpanan, jika local variable disimpan di stack segement maka global variable di simpan di data segement
+   contoh output : local variable : 0x7ffd49153c9f ; global variable: 0x600a98
+
+c. Global variable adalah merupakan variabel yang dapat digunakan atau di panggil oleh semua fungsi. Variabel global juga dapat digunakan apabila terdapat variable yang digunakan pada beberapa fungsi/prosedur. Dan dengan adanya global variable biasanya bertujuan agar kita tida pelu lagi berkali - kali dalam menuliskan variabel yang sama pada beberapa fungsi
+   , sedangkan local variabel merupakan variabel yang hanya dapat digunakan atau di panggil dalam satu prosedur saja. Local varibale hanyadikenal oleh fungsi tempat variable tersebut dideklarasikan dan tidak ada inisialisasi secara otomatis (saat variabel di buat nilainya tidak menentu)
+source : https://www.codecademy.com/en/forum_questions/514900b642e721e65d0003f1 
+
+
+===============================================================================================================================================================
+5a)=FLAGS=
+1.O_RDONLY : Digunakan untuk membuka file yang mana hanya untuk dibaca
+2.O_WRONLY : Digunakan untuk membuka file yang mana hanya untuk menulis saja
+3.O_RDWR : Digunakan untuk membuka file yang bisa membaca file yang telah di tulis 
+4.O_APPEND : menambah informasi baru pada akhir file
+5.O_TRUNC : awalan menghapus semua data dari file 
+6.O_CREAT : Digunakan untuk membuat file baru
+
+5b)=MODE=
+1. S_IRWXU : mode User telah membaca lalu menulis dan mengeksekusi izin 
+2. S_IRUSR : mode user telah membaca permission 
+3. S_IWUSR : mode user telah menulis permission
+4. S_IXUSR : mode user telah menjalankan permission
+
+5. S_IRWXG : mode grup telah membaca,menulis dan menjalankan permission
+6. S_IRGRP : mode grup telah membaca permission
+7. S_IWGRP : mode grup telah menulis permission
+8. S_IXGRP : mode grup telah menjalankan permission
+
+9. S_IRWXO : mode pihak lain telah membaca,menulis dan menjalankan permission
+10.S_IROTH : mode pihak lain telah membaca permission
+11.S_IWOTH : mode pihak lain telah menulis permission
+12.S_IXOTH : mode pihak lain elah menjalankan permission
+
+==========================================================================================
+5c)
+program open-close.c menjelaskan tentang sebuah program yang bertugas mebuat file sekaligus permission nya dengan default yang permisssion yang telah di tentukan. Dengan menginisiasi file  apa saja
+yang akan di buat yaitu demo-file1.txt , demo-file2.txt, demo-file3.txt.
+
+-eksekusi pertama membuat file demo-file1.txt yaitu dengan directory permission 0700 yang hanya bisa diakses(read,write,execution) oleh user owner saja
+-eksekusi kedua membuat file demo-file2.txt yaitu dengan directory permission 0764 yang mana user owner bisa akses (read,write,execution) dan grup bisa akses read dan write sedangkan other hanya bisa read
+
+ -eksekusi ketiga membuat file demo-file3.txt yaitu dengan directory permission 0711 user owner bisa eksekusi(read,write,execution), grup dan other hanya bisa execution
+
+-eksekusi keempat akan gagal dikarenakan O_creat mempunyai sifat syntax yang mana jika file yang di buat sudah ada maka akan fail.
+ 
+ 
+Operasi input output linux : 
+Linux dan OS linux memiliki standar aliran data. 
+setiap perintah atau setiap proses yang dijalankan secara otomatis diinisialisasi 
+dengan tiga aliran data: satu input, disebut standar input,
+dan dua output, disebut standar output dan standard error.
+
+Setiap kali instruksi diberikan maka setiap proses yang dibuat akan diberikan nomor PID
+
+- Standar input biasanya disebut stdin
+- standar output biasanya disbut stdout umumnya hasil dari output akan di tampilkan ke layar, namun juga dapat di
+  arahkan atau disimpan ke dalam suatu file atau bisa juga dijadikan sebaga input bagi proses yang lain dengan 
+  menggunakan metode seperti pipeline atau yang lain
+- Standar error biasanya disebut stder biasanya di tampikan apabila terjadi error dan mencatat log error 
+
+source : http://www.linfo.org/stdio.html
