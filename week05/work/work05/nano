@@ -1,0 +1,31 @@
+Sama seperti task manager di windows,
+Output  program ini adalah:
+Program ini menampilkan informasi sistem dari proses yang sedang berjalan saat ini (real time).
+Program ini dioperasikan oleh linux kernel. hal - hal yang dapat ditampilka adalah seperti, 
+jenis program, ukuran file, kecepatan memory, dan tanggal.
+Penjelasan masing - asing atribut :
+PID : Process Id
+ Yaitu task yang mempunyai id proses yang unik, yang saling bertukar secara
+ berkala, meskipun tidak pernah kembali ke nol. Pada kernel, merupakan identitas yang di tentukan oleh 'task_struct' 
+ 
+ Used : Memory in use(KiB)
+field ini merepresentasikan pisikal memori yang tidak saling bertukar dan 
+task ini merupakan address.
+ 
+ PR : Priority
+ yaitu jadwal prioritas pekerjaan. Jika di field ini terdapat 'rt', maka 
+ itu bermakna task berjalan di luar prioritas jadwal sebenarnya.
+ 
+ NI : -- Nice value
+ nice value dari sebuah task. negatif nice value bermakna bahwa mempunyai 
+ prioritas tinggi, dan positif nice value mempunyai arti prioritas yang cendrung rendah. dan nol mempunyai arti prioritas yang tidak akan di sesuikan dalam menentukan kemampuan dalam pengerjaan
+ 
+ VIRT :
+ RES : Resident memory size (KiB)
+ adalah memori fisik yang telah digunakan yang mana tidak saling bertukar
+ 
+ SHR : Shared Memory Size (KiB)
+ yaitu jumlah memori yang berhasil di bagikan ke suatu tugas, 
+ Dan SHR ini hanya  mencerminkan memori yang dapat berpotensi dibagi dengan proses lainnya.
+ 
+ MEM : -- Memory Usage (RES). adalah sebuh task yang digunakan untuk membagi fisikal memori yang sedang tersedia

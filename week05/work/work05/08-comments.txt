@@ -1,0 +1,5 @@
+Sama hal nya seperti task manager di windows,
+
+Yang dilakukan program adalah program ini menampilkan informasi sistem dari proses yang sedang berjalan saat ini (real time). program ini dioperasikan oleh linux kernel. hal - hal yang dapat ditampilka adalah seperti, jenis program, ukuran file, kecepatan memory, tanggal.
+berikut penjelasan atribut terkait output dari program:
+
