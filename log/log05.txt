@@ -1,0 +1,15 @@
+w05-170312-14-PS-About:  Lab week05,about boot and start up script
+w05-170312-14-PS-About:  Lab week05,about boot and start up script
+w05-170312-15-PS-About:  Lab week05,about boot and start up script
+w05-170312-15-PS-About:  Lab week05,about boot and start up script
+w05-170312-16-PS-About:  Lab week05,about boot and start up script
+w05-170312-16-PS-About:  Lab week05,about boot and start up script
+w05-170312-17-PS-About:  Lab week05,about boot and start up script
+w05-170312-18-DS-About:  About Memori (FIFO,LIFO)
+w05-170312-18-DS-About:  About Memori (FIFO,LIFO)
+w05-170312-19-DS-About:  About Memori (FIFO,LIFO)
+w05-170312-19-DS-About:  About Memori (FIFO,LIFO)
+w05-170314-13-LR-About: Memori & main memori (paging), from lecturer
+w05-170314-13-LR-About: Memori & main memori (paging), from lecturer
+w05-170314-14-LR-About: Memori & main memori (paging), from lecturer
+w05-170314-14-LR-About: Memori & main memori (paging), from lecturer
