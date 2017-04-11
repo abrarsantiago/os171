@@ -1,0 +1,36 @@
+#fork
+ Github Account : abrarsantiago
+
+(Learning Fork)
+Nomor 7.
+- Yang dimaksud dengan pid adalah proses id dari suatu proses atau dengan kata lain PID merupakan indentitas 
+unik berupa angka yang digunakan dalam beberapa sistem operasi untuk mengidentifikasi suatu proses. 
+Untuk mendapatkan PID gunakan perintah “System call getpid()” dan
+PPID adalah proses id dari anak nya atau dengan kata lain PPID merupakan induk dari PID dan merupakan creator dari suatu proses. 
+Setiap proses memiliki satu induk proses (PPID). Untuk mendapatkan PPID gunakan perintah “System call getppid()”
+
+ 
+- getpid mengembalikan proses id dari proses yang di panggil sedangkan getppid mengambalikan proses id dari parent dari proses panggilan.
+  Fungsi Sleep yaitu system call atau fungsi library yang menghentikan proses sampai satuan waktu tertentu. 
+  Fungsi wait yaitu sebuah fungsi yang akan menunggu proses dari child berjalan hingga mati, setelah child mati baru lah 
+  setelah itu giliran parent yang akan berjalan.
+
+- fork akan mereturn pid anak untuk si indukk dan mereturn nilai 0 untuk si anak
+Kedua proses ini akan jalan secara bersama­sama (atau   tidak   diketahui   siapa   yang   jalan   terlebih   dahulu)  mulai   dari   program  
+counter dimana terdapat statement fork. 
+
+(Fork Code)
+Nomor 5.
+- Fungsi procStatus adalah sebuah fungsi yang kita buat sendiri, yang mana 
+  mempunyai fungsi untuk mengembalikan nilai id parent maupun child dengan cara memanggil
+  getpid() nya. Tidak hanya mengambil id namun juga akan mengambil level yang ada di 
+  parameter dari fungsi procStatus.    
+
+-Fungsi wait(null) berfungsi untuk menunggu proses dari child yang ada di bawahnya per level, setelah
+  child mati selanjutnya parent giliran akan jalan. Return value dari child adalah 0,
+  dan return value parent adalah pid dari child.
+
+- Fungsi fflush(null), seperti analogi flush toilet, fungsi fflush() berfungsi untuk
+  membersihkan output. Misalkan sebelumnya terjadi suatu proses, biasanya terdapat
+  proses induk dan anak sebelumnya tersebut akan mengganggu hasil selanjutnya. 
+  Maka, agar proses yang di hasilkan itu bersih gigunakan lah fungsi fflush()
