@@ -17,3 +17,7 @@ w06-170411-22-LR-About: Lab week06,about Fork
 w06-170411-22-LR-About: Lab week06,about Fork
 w06-170411-23-LR-About: Lab week06,about Fork
 w06-170411-23-LR-About: Lab week06,about Fork
+w06-170413-13-LR-About: Syncronization, from lecturer
+w06-170413-13-LR-About: Syncronization, from lecturer
+w06-170413-14-LR-About: Syncronization, from lecturer
+w06-170413-14-LR-About: Syncronization, from lecturer
