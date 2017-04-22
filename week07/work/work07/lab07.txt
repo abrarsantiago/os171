@@ -1,0 +1,36 @@
+# Github Account : abrarsantiago
+
+[03-reaswrite.c]
+a. brief summary of the program
+jawab : 
+Program diatas menjelaskan program untuk membaca dan menulis program dalam suatu waktu
+secara bergantian, ketika reader ingin membaca maka harus ada writer yang telah
+menulis.Dengan jumlah reader 3 dan write 2  
+b. critical section
+jawab :
+Critical Section terdapat pada line 32 dan 53, ketika assign id
+
+c. Purpose of using mutex and the outcome if not using mutex
+Tujuan menggunakan mutex adalah agar setiap program yang awalnya berjalan bersamaan,
+bisa saling saling tunggu satu sama lain, dan jika tidak menggunakan mutex maka 
+akan ada kecendrungan tejadi race condition, jika race condition terjadi maka akan memebuat 
+nilai data tersebut akan menjadi kacau. Dengan kata lain jika tidak terdapat mutex maka akan akan mengakibatkan terdapat id yang ketimpa oleh id lain
+
+[05-balap.c]
+a. brief summary of the program
+jawab:
+Program diatas menjelaskan program tentang pertandingan balap, yang mana terdiri dari 10
+pembalap yang akan bertanding, yang mana yang menentukan siapa pembalap yang maju
+terlebih dahulu adalah seorang bandar. 
+b. critical sections
+jawab:
+critical section terdapat pada line 22,23,24,34,35,40,41,42 dan 43
+
+c. Purpose of using mutex and the outcome if not using mutex
+jawab:
+Tujuan menggunakan mutex adalah agar setiap program yang awalnya berjalan bersa$
+bisa saling saling tunggu satu sama lain, dan jika tidak menggunakan mutex maka
+akan ada kecendrungan tejadi race condition, jika race condition terjadi maka a$
+nilai data tersebut akan menjadi kacau.
+Dengan kata lain bandar/mutex dapat mengatur jalannya pembalap agar bisa berjalan bergantian dan
+tidak terjadi tabrakan karena berebut untuk maju duluan. Dan bisa membuat id tiap pembalap ketimpa oleh pembalap lain
