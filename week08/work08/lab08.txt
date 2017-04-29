@@ -1,9 +1,39 @@
 #Github Account: abrarsantiago
+
+Pada program membahas mengenai socket yaitu sebuah class yang 
+digunakan agar bagaimana program dapat saling berhubungan dan memberi pesan.
 pada program ini kita menjalankan 3 program yaitu:
 1)00-server.c
-Adalah sebagai penghubung antara client dan cliesvr 
+program 00-server.c berfungsi untuk menerima data yang dikirim oleh client.
+Pada program ini terdapat total dua argumen (argumencount= 2) yaitu argv[0]
+dan argv[1]. Dimana argv[0] isinya server dan argv[1] isinya nomor port.
 
+Lalu akan dicek jika argc < 2 tidak memenuhi syarat, karena argc harus = 2,
+disini akan muncul error, dan jika portnya tidak ada maka akan cetak 
+"ERROR,no port provided" dan program akan menjalankan perintah exit(1);
+
+Lalu program akan mengambil nilai sockfd, apabila sockffd < 0 maka socket 
+tidak akan bisa dibuka dan akan mencetak "ERROR opening socket"
+ 
 2)01-client.c
-
+Program 01-client.c  berfungsi untuk mengirimkan data yang diketik ke 
+aplikasi server.
+ pada program ini jika argc < 3 maka akan mencetak "usege nama port,".
+ Dan jika memenuhi syarat dari argumen argc < 3 maka akan di periksa kembali
+ apakah sockfd < 0  , jika maka akan mencetak "ERROR opening socket"
+ Dan selanjutnya di cek apakah server = null, jika iya maka akan mencetak
+ "ERROR, no such host"
+ 
+ jika nn < 0 maka mencetak ERROR waiting to socket jika tidak menunggu maka 
+ di cetak lah "ERROR reading from socket"
 
 3)02-clisvr
+ Pada saat socket client, informasi alamat socket server dilewatkan sebagai argumen 
+  dan socket client akan otomatis mencoba meminta koneksi ke socket server. Pada saat
+  permintaan koneksi client sampai pada server, maka server akan membuat suatu socket 
+  biasa. Socket ini yang nantinya akan berkomunikasi dengan socket pada sisi client.
+  Setelah itu socket server dapat kembali melakukan listen untuk menunggu permintaan 
+  koneksi dari client lainnya. Langkah ini umumnya hanya dilakukan jika aplikasi server 
+  mengimplementasikan multithreading.
+Setelah tercipta koneksi antara client dan server, maka keduanya dapat saling bertukar pesan. 
+Salah satu atau keduanya kemudian dapat mengakhiri komunikasi dengan menutup socket.
