@@ -1,0 +1,77 @@
+Script started on Kam 27 Apr 2017 03:37:51  WIB
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ /sbin [K/ifconfig
+eno1      Link encap:Ethernet  HWaddr 14:dd:a9:d3:4f:66  
+          inet addr:152.118.27.141  Bcast:152.118.27.255  Mask:255.255.255.128
+          inet6 addr: fe80::3992:3fc1:ecb9:762c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:22342 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11315 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:15445121 (15.4 MB)  TX bytes:1598073 (1.5 MB)
+          Interrupt:20 Memory:f7900000-f7920000 
+
+enp2s0    Link encap:Ethernet  HWaddr 60:e3:27:04:ef:33  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1845 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1845 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:224806 (224.8 KB)  TX bytes:224806 (224.8 KB)
+
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ ./01-client 152.118.27.141 9001
+Enter the message: Lulus OS Semester ini !
+[FROM SERVER] ACK MESSAGE...
+
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ nano lab08.txt 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 1 line ](B[m[K[4d[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: lab08.txt                                   [3;1H(B[m#Github Account: abrarsantiago[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[4d[1;71H(B[0;7mModified[4d(B[mpada progrsm   am ini k[22d[K[4;19Hita menjalankan 3 program yaiy  itu:[5d1) 00-server.c[6d[7d[8d2)01-client .c[9d[10d[11d3) 02-clisvr[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: lab08.txt                               [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;30H[?25l[C[39;49m(B[m[1K (B[0;7m[ Wrote 9 lines ](B[m[K[11;12H[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ exit
+exit
+
+Script done on Kam 27 Apr 2017 04:13:37  WIB
+Script started on Kam 27 Apr 2017 04:29:10  WIB
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ /sbin/ifconfig
+eno1      Link encap:Ethernet  HWaddr 14:dd:a9:d3:4f:66  
+          inet addr:152.118.27.141  Bcast:152.118.27.255  Mask:255.255.255.128
+          inet6 addr: fe80::3992:3fc1:ecb9:762c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:33009 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14447 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:22858796 (22.8 MB)  TX bytes:1989534 (1.9 MB)
+          Interrupt:20 Memory:f7900000-f7920000 
+
+enp2s0    Link encap:Ethernet  HWaddr 60:e3:27:04:ef:33  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2327 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2327 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:322960 (322.9 KB)  TX bytes:322960 (322.9 KB)
+
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ .02[K[K[K02[K[K./02-clisvr 9002 152.118.27.45 9002
+ERROR connecting: No route to host
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ ./02-clisvr 9002 152.118.27.45 9002
+ERROR connecting: No route to host
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ ./02-clisvr 9002 152.118.27.45 9002[1@1
+^C
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ ./02-clisvr 9002 152.118.27.145 9002
+From nugraha.aditya to ari.tri51 to muhammad.abrar: Hello
+]0;muhammad.abrar@itf: ~/work08[01;32mmuhammad.abrar@itf[00m:[01;34m~/work08[00m$ exit
+exit
+
+Script done on Kam 27 Apr 2017 04:46:03  WIB
